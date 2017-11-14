@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+  max-width: 960px;
+
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+ 
+  padding: 25px 3;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 20px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: tahoma;
+}
+
+.intro {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+#info {
+	color: white;
+	font-family: cursive;
+}
+
+.nav.navbar-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: none;
+	}
+}
+
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: auto;
+	margin-top: 10px;
+}
+
+
+section.about, section.about_com {
+    padding: 80px 0;
+    background: #fff;
+}
+
+section.about h2{
+	color: red;
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding: 0 10px;
+}
+
+._span-4 {
+  -ms-flex-preferred-size: 33.333333333%;
+      flex-basis: 33.333333333%;
+}
+
+._span-8 {
+  -ms-flex-preferred-size: 66.666666667%;
+      flex-basis: 66.666666667%;
+}
+
+.imagegrid {
+  height: 440px;
+}
+.imagegrid .imagegrid-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.imagegrid .imagegrid-image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  margin: 10px 0;
+  background: #eee;
+}
+
+.imagegrid-image._1 {
+  background: url(yoga-heart.jpeg) #eee center center;
+  background-size: cover;
+}
+
+.imagegrid-image._2 {
+  background: url(yoga-benefits.jpg) #eee center center;
+  background-size: cover;
+}
+
+.imagegrid-image._3 {
+  background: url(yogaandmeditationclasses.jpg) #eee center center;
+  background-size: cover;
+}
+
+
+
